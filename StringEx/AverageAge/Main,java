@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int theverybigsum  = 0;
+        
+
+        for(int i = 1; i <= 10; i++) {
+            System.out.println("enter persons age pls " + i);
+            
+            int age = scanner.nextInt();
+            
+
+            theverybigsum += age;
+        }
+        
+
+        double sillyaverage = theverybigsum / 10.0;
+        
+
+        System.out.println("average " + sillyaverage);
+    }
+}
