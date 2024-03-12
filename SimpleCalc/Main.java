@@ -12,11 +12,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double num1 = scanner.nextDouble();
-        double num2 = scanner.nextDouble();
-        String operation = scanner.next();
+      System.out.println("Welcome to the calculator!");
+      System.out.println("Please enter your first number:");
+      
+      double num1 = scanner.nextDouble();
+      System.out.println("Please enter your second number:");   
+      double num2 = scanner.nextDouble();
+      
+        String myoperation = scanner.next();
 
-        switch (operation) {
+        switch (myoperation) {
             case "+": System.out.println(num1 + num2); break;
             case "-": System.out.println(num1 - num2); break;
             case "*": System.out.println(num1 * num2); break;
