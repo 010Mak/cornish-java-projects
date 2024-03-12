@@ -1,3 +1,11 @@
+/*
+* TenRandomNumbers.java
+* BXV HS Intro Java 
+* Generate 10 random numbers in specified range by user
+* @author: Mak
+* March 12
+*/
+
 import java.util.Scanner;
 
 public class TenRandomNumbers {
