@@ -1,3 +1,11 @@
+/*
+* Main.java
+* HS Intro Java 
+* General calculator for any purpose
+* @author: Mak
+* March 12
+*/
+
 import java.util.Scanner;
 
 public class Main {
