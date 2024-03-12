@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SimpleCalculator {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,8 +12,8 @@ public class SimpleCalculator {
             case "+": System.out.println(num1 + num2); break;
             case "-": System.out.println(num1 - num2); break;
             case "*": System.out.println(num1 * num2); break;
-            case "/": System.out.println(num2 != 0 ? num1 / num2 : "Error"); break;
-            default: System.out.println("Invalid operation");
+            case "/": System.out.println(num2 != 0 ? num1 / num2 : "silly error encountered"); break;
+            default: System.out.println("you cant do that");
         }
 
         scanner.close();
