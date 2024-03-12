@@ -18,16 +18,16 @@ public class TenRandomNumbers {
         System.out.print("Enter maximum number (num2): ");
         int num2 = scanner.nextInt();
 
-        System.out.println("Random number 1: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 2: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 3: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 4: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 5: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 6: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 7: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 8: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 9: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
-        System.out.println("Random number 10: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 1: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 2: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 3: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 4: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 5: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 6: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 7: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 8: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 9: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
+        System.out.println(" 10: " + ((int)(Math.random() * (num2 - num1 + 1) + num1)));
 
         scanner.close();
     }
