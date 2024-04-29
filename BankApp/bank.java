@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class SimpleBank {
+public class Bank {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double balance = 100.0; // initial balance
-        String password = "1234"; // simple password
+        double balance = 1000.0; 
+        String password = "1234"; 
 
         System.out.println("Welcome to SimpleBank!");
         System.out.print("Please enter your password: ");
@@ -13,7 +13,7 @@ public class SimpleBank {
 
         if (!inputPassword.equals(password)) {
             System.out.println("Incorrect password. Exiting...");
-            return; // end the program
+            return; 
         }
 
         boolean exit = false;
@@ -52,7 +52,7 @@ public class SimpleBank {
 
                 case 4:
                     System.out.println("Thank you for using SimpleBank. Goodbye!");
-                    exit = true; // exit the loop
+                    exit = true; 
                     break;
 
                 default:
@@ -61,6 +61,6 @@ public class SimpleBank {
             }
         }
 
-        scanner.close(); // close the scanner to avoid resource leaks
+        scanner.close(); 
     }
 }
