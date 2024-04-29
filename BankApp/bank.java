@@ -7,19 +7,19 @@ public class Bank {
         double balance = 1000.0; 
         String password = "1234"; 
 
-        System.out.println("Welcome to SimpleBank!");
-        System.out.print("Please enter your password: ");
+        System.out.println("Welcome to Odin Bank! screw you and your financial problems!");
+        System.out.print("enter your goofy password: ");
         String inputPassword = scanner.nextLine();
 
         if (!inputPassword.equals(password)) {
-            System.out.println("Incorrect password. Exiting...");
+            System.out.println("moron.");
             return; 
         }
 
         boolean exit = false;
 
         while (!exit) {
-            System.out.println("\nChoose an option:");
+            System.out.println("\nchoose before i lock you out");
             System.out.println("1. View balance");
             System.out.println("2. Deposit funds");
             System.out.println("3. Withdraw funds");
