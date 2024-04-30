@@ -7,7 +7,7 @@ public class Bank {
         double balance = 1000.0; 
         String password = "1234"; 
 
-        System.out.println("Welcome to Odin Bank! screw you and your financial problems!");
+        System.out.println("silly ahh bank; screw you and your financial problems!");
         System.out.print("enter your goofy password: ");
         String inputPassword = scanner.nextLine();
 
@@ -36,27 +36,27 @@ public class Bank {
                     System.out.print("Enter deposit amount: $");
                     double deposit = scanner.nextDouble();
                     balance += deposit;
-                    System.out.printf("New balance: $%.2f%n", balance);
+                    System.out.printf("balance: $%.2f%n", balance);
                     break;
 
                 case 3:
-                    System.out.print("Enter withdrawal amount: $");
+                    System.out.print("withdrawal amount: $");
                     double withdrawal = scanner.nextDouble();
                     if (withdrawal > balance) {
-                        System.out.println("Insufficient funds.");
+                        System.out.println("insufficient funds.");
                     } else {
                         balance -= withdrawal;
-                        System.out.printf("New balance: $%.2f%n", balance);
+                        System.out.printf("balance: $%.2f%n", balance);
                     }
                     break;
 
                 case 4:
-                    System.out.println("Thank you for using SimpleBank. Goodbye!");
+                    System.out.println("thanks for using silly ahh bank");
                     exit = true; 
                     break;
 
                 default:
-                    System.out.println("Invalid option. Try again.");
+                    System.out.println("invalid.");
                     break;
             }
         }
