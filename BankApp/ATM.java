@@ -4,7 +4,7 @@ public class ATM {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double balance = 1000.0; 
+        double balance = 0.0; 
         String password = "1234"; 
 
         System.out.println("silly ahh bank; screw you and your financial problems!");
