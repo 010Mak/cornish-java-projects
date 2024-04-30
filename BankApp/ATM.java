@@ -29,7 +29,7 @@ public class ATM {
 
             switch (choice) {
                 case 1:
-                    System.out.printf("Your balance: $%.2f%n", balance);
+                    System.out.printf("balance: $%.2f%n", balance);
                     break;
 
                 case 2:
