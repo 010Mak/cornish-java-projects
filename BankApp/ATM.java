@@ -39,6 +39,7 @@ public class ATM {
                     System.out.printf("balance: $%.2f%n", balance);
                     break;
 
+                
                 case 3:
                     System.out.print("withdrawal amount: $");
                     double withdrawal = scanner.nextDouble();
@@ -55,6 +56,7 @@ public class ATM {
                     exit = true; 
                     break;
 
+                
                 default:
                     System.out.println("invalid.");
                     break;
