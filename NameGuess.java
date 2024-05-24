@@ -13,10 +13,10 @@ public class NameGuess {
             maskedName[i] = '*';
         }
 
-        System.out.println("Guess the name: " + new String(maskedName));
+        System.out.println("guess name: " + new String(maskedName));
 
         while (new String(maskedName).contains("*")) {
-            System.out.print("Enter a letter: ");
+            System.out.print("enter a letter: ");
             char guessedLetter = scanner.nextLine().charAt(0);
 
             boolean found = false;
@@ -28,13 +28,13 @@ public class NameGuess {
             }
 
             if (!found) {
-                System.out.println("Letter not in the name.");
+                System.out.println("letter not in the name.");
             }
 
             System.out.println(maskedName);
         }
 
-        System.out.println("Well done! The name was: " + chosenName);
+        System.out.println("correct: the name was: " + chosenName);
         scanner.close();
     }
 }
