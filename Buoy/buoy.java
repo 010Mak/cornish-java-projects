@@ -8,17 +8,17 @@ public class WeatherAnalysisTool {
     private static final Map<String, List<WeatherData>> weatherDataMap = new HashMap<>();
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the Historical Weather Analysis Tool!");
+        System.out.println("Data Buoy Analytical Tool");
         loadWeatherData();
-        System.out.println("Data loaded successfully with " + weatherDataMap.size() + " entries.");
+        System.out.println("data loaded in with " + weatherDataMap.size() + " entries.");
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("What would you like to analyze? Options: weatherOnDay, minTempOnDay, maxTempOnDay, rainOnDay, snowOnDay, rainForMonth, maxTempEachYear, exit");
+            System.out.println("Options: weatherOnDay, minTempOnDay, maxTempOnDay, rainOnDay, snowOnDay, rainForMonth, maxTempEachYear, exit");
             String option = scanner.nextLine();
 
             if (option.equalsIgnoreCase("exit")) {
-                System.out.println("Exiting the tool. Goodbye!");
+                System.out.println("quitting tool.");
                 break;
             }
 
